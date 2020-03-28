@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "asd_head",
+    "enableBody": true,
+    "textureBody": "swoobies_icon",
+    "enableLeggings": false,
+    "textureLeggings": "asd_leggings",
+    "enableBoots": false,
+    "textureBoots": "asd_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "asd",
+    "helmetName": "Asd Helmet",
+    "bodyName": "Swoobies",
+    "leggingsName": "Asd Leggings",
+    "bootsName": "Asd Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelassadsasd",
+    "bodyModelPart": "bb_main",
+    "bodyModelTexture": "2020_03_28_x-steve-14012864.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 1,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 0,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

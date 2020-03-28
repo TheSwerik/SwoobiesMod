@@ -1,0 +1,11 @@
+{
+  "group": "swoobies",
+  "type": "minecraft:smelting",
+  "experience": 100,
+  "ingredient": {
+    "item": "minecraft:peony"
+  },
+  "result": {
+    "item": "swoobies:womanjuiceitem"
+  }
+}

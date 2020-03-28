@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Womanizer",
+    "effectName": "Womanizer",
+    "icon": "swoobies_icon.png",
+    "color": {
+      "value": -39220,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": true,
+    "curativeItems": [],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "WomanizerPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "WomanizerOnPotionActiveTick"
+    }
+  }
+}

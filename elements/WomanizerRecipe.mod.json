@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 100.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.DOUBLE_PLANT#5"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:WomanJuiceItem"
+    },
+    "name": "womanizerrecipe",
+    "namespace": "mod"
+  }
+}

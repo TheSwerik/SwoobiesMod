@@ -1,0 +1,179 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AsdArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "swoobies",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "Womanizer",
+      "type": "potion",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WomanizerPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WomanizerOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WomanizerAdvancement",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WomanizerRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WomanJuice",
+      "type": "fluid",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WomanizerRecipe1",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WomanizerPotion",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WomanJuiceItemRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WomanJuiceItem",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.womanizer": "Splash Womanizer",
+      "advancements.womanizeradvancement.descr": "Become a Woman",
+      "item.swoobies.womanizerpotion": "Womanizer Potion",
+      "item.minecraft.tipped_arrow.effect.womanizer": "Arrow of Womanizer",
+      "item.swoobies.swoobiesbody": "Swoobies",
+      "item.test.asdarmorbody": "Swoobies",
+      "item.swoobies.swoobieshelmet": "Asd Helmet",
+      "item.test.asdarmorhelmet": "Asd Helmet",
+      "item.test.asdarmorlegs": "Asd Leggings",
+      "effect.womanizer": "Womanizer",
+      "item.swoobies.womanjuice_bucket": "WomanJuice Bucket",
+      "item.swoobies.swoobieslegs": "Asd Leggings",
+      "item.swoobies.womanjuiceitem": "Woman Juice",
+      "item.test.asdarmorboots": "Asd Boots",
+      "item.swoobies.swoobiesboots": "Asd Boots",
+      "fluid.womanjuice": "WomanJuice",
+      "advancements.womanizeradvancement.title": "Womanizer",
+      "item.minecraft.lingering_potion.effect.womanizer": "Lingering Womanizer",
+      "item.minecraft.potion.effect.womanizer": "Womanizer"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "swoobies",
+    "modName": "Swoobies",
+    "version": "1.0.0",
+    "author": "Swerik",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "swoobies_icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "de.swerik.swoobies",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000213314
+}
