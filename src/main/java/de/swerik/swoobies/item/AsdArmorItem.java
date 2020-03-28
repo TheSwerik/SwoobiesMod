@@ -74,7 +74,7 @@ public class AsdArmorItem extends SwoobiesElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
 				BipedModel armorModel = new BipedModel();
-				armorModel.bipedBody = new Modelassadsasd().bb_main;
+				armorModel.bipedBody = new Modelswoobies().bb_main;
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isSitting = defaultModel.isSitting;
 				armorModel.isChild = living.isChild();
@@ -83,22 +83,27 @@ public class AsdArmorItem extends SwoobiesElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "swoobies:textures/2020_03_28_x-steve-14012864.png";
+				return "swoobies:textures/swoobies_texture.png";
 			}
 		}.setRegistryName("swoobiesbody"));
 	}
 	// Made with Blockbench
 	// Paste this code into your mod.
 	// Make sure to generate all required imports
-	public static class Modelassadsasd extends EntityModel<Entity> {
+	public static class Modelswoobies extends EntityModel<Entity> {
 		private final RendererModel bb_main;
-		public Modelassadsasd() {
+		public Modelswoobies() {
 			textureWidth = 16;
 			textureHeight = 16;
 			bb_main = new RendererModel(this);
 			bb_main.setRotationPoint(0.0F, 24.0F, 0.0F);
-			bb_main.cubeList.add(new ModelBox(bb_main, 0, 3, -5.0F, -22.0F, -4.0F, 10, 5, 3, 0.0F, false));
-			bb_main.cubeList.add(new ModelBox(bb_main, 0, 3, -4.0F, -21.0F, -6.0F, 8, 3, 3, 0.0F, false));
+			bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -7.0F, -25.0F, -8.0F, 14, 5, 6, 0.0F, false));
+			bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -6.0F, -26.0F, -8.0F, 5, 7, 6, 0.0F, false));
+			bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 1.0F, -26.0F, -8.0F, 5, 7, 6, 0.0F, false));
+			bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -6.0F, -25.0F, -10.0F, 5, 5, 6, 0.0F, false));
+			bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 1.0F, -25.0F, -10.0F, 5, 5, 6, 0.0F, false));
+			bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -4.0F, -23.0F, -11.0F, 1, 1, 5, 0.0F, false));
+			bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 3.0F, -23.0F, -11.0F, 1, 1, 5, 0.0F, false));
 		}
 
 		@Override
