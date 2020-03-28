@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "swoobies_icon",
+    "texture": "womanizer_potion",
     "customModelName": "Normal",
     "name": "Womanizer Potion",
     "creativeTab": {

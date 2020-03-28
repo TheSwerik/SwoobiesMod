@@ -11,13 +11,11 @@ public static class Modelswoobies extends ModelBase {
 
 		bb_main = new ModelRenderer(this);
 		bb_main.setRotationPoint(0.0F, 24.0F, 0.0F);
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -7.0F, -25.0F, -8.0F, 14, 5, 6, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -6.0F, -26.0F, -8.0F, 5, 7, 6, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 1.0F, -26.0F, -8.0F, 5, 7, 6, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -6.0F, -25.0F, -10.0F, 5, 5, 6, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 1.0F, -25.0F, -10.0F, 5, 5, 6, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -4.0F, -23.0F, -11.0F, 1, 1, 5, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 3.0F, -23.0F, -11.0F, 1, 1, 5, 0.0F, false));
+		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -5.0F, -22.0F, -4.0F, 10, 3, 3, 0.0F, false));
+		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -4.0F, -23.0F, -4.0F, 3, 5, 3, 0.0F, false));
+		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 1.0F, -23.0F, -4.0F, 3, 5, 3, 0.0F, false));
+		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -4.0F, -22.0F, -5.0F, 3, 3, 2, 0.0F, false));
+		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, 1.0F, -22.0F, -5.0F, 3, 3, 2, 0.0F, false));
 	}
 
 	@Override
